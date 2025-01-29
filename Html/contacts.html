@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KobacTech</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="mx-auto">
+      <div class="flex md:justify-between items-center pt-4 pb-5  px-18">
+        <!-- my logo -->
+        <img class="w-auto h-[60px]" src="/img/KobacTech-02.png" alt="">
+
+
+        <!-- Searching bar -->
+        <div class="bg-white flex px-1 py-1 rounded-full border border-[#0066CC] overflow-hidden  font-[sans-serif]">
+          <input type='search' placeholder='Search Something...' class="w-full outline-none bg-white pl-4 text-sm" />
+          <button type='button'
+            class="bg-[#0066CC] hover:bg-[#009966] transition-all text-white text-sm rounded-full px-5 py-2">Search</button>
+        </div>
+        <!-- nav menues -->
+         <ul class="text-[#0066CC] flex gap-5 text-[18px]">
+             <a href="index.html"><li class="hover:text-[#009966] hover:border-b-1">Home</li></a>
+             <a href="about.html"><li class="hover:text-[#009966] hover:border-b-1">About</li></a>
+             <a href="courses.html"><li class="hover:text-[#009966] hover:border-b-1">Courses</li></a>
+             <a href="dashboard.html"><li class="hover:text-[#009966] hover:border-b-1">Student Area</li></a>
+             <li class="hover:text-[#009966] hover:border-b-1">Contacts Us</li>
+             <li class="hover:text-[#009966] hover:border-b-1">Contacts Us</li>
+         </ul>
+         <a class="text-white text-[18px] bg-[#0066CC] px-10 py-3 rounded-xl hover:bg-[#009966] hover:scale-110 transition" href="#">Login</a>
+    </div>
+    <!-- end header -->
+
+
+    <!-- Hero section -->
+    <div class="flex justify-center items-center pt-10 pb-20 bg-linear-to-r from-green-200 to-white h-[500px]">
+        <!-- text-container -->
+    <div class="container text-center p-6 mx-15 col-10">
+        <h1 class="md:text-[70px] text-[35px] text-[#009966] font-bold"><span class="">Feel Free <span class="font-thin text-[#0066CC]">For Contacting,</span> <span class="">With Us!</span> </span></h1>
+        <p class="text-[#606060] font-thin md:text-lg text-sm py-3">
+            Empowering learners worldwide with accessible, engaging courses and tools to achieve their goals and embrace lifelong learning.
+        </p>
+        </div>
+    </div>
+    <!-- End hero section -->
+
+
+    <div class="md:flex justify-center my-5 pt-5 gap-6">
+        <div class="col bg-white shadow-lg card p-[55px] w-105 h-90 justify-center items-center my-2 text-center rounded-xl md:mx-0 mx-15 hover:border-b-5 border-[#0066CC]">
+            <h1 class="text-7xl text-[#0066CC]"><ion-icon name="navigate-circle-outline"></ion-icon></h1>
+            <h3 class="text-2xl font-bold pt-3 text-[#009966]">Address way</h3>
+            <p class="font-normal pt-2 text-[#606060]">Bakaaro, Hawl-wadaag, Mogadishu-Somalia</p>
+        </div>
+        <div class="col bg-white shadow-lg card p-[55px] w-105 h-90 justify-center items-center my-2 text-center rounded-xl md:mx-0 mx-15 hover:border-b-5 border-[#009966]">
+            <h1 class="text-7xl text-[#0066CC]"><ion-icon name="call-outline"></ion-icon></h1>
+            <h3 class="text-2xl font-bold pt-3 text-[#009966]">Contact info</h3>
+            <p class="font-normal pt-2 text-[#606060]">Mobile: +252 61 3883511</p>
+            <p class="font-normal pt-2 text-[#606060]">E-mail: info@kobacTech.com</p>
+        </div>
+        <div class="col bg-white shadow-lg card p-[55px] w-105 h-90 justify-center items-center my-2 text-center rounded-xl md:mx-0 mx-15 hover:border-b-5 border-[#0066CC]">
+            <h1 class="text-7xl text-[#0066CC]"><ion-icon name="time-outline"></ion-icon></h1>
+            <h3 class="text-2xl font-bold pt-3 text-[#009966]">Work timer</h3>
+            <p class="font-normal pt-2 text-[#606060]">Saturday - Wednesday: 07:00am - 06:00pm</p>
+            <p class="font-normal pt-2 text-[#606060]">Thrusday & Friday: 09:00am - 11:00am</p>
+        </div>
+    </div>
+    <!-- End contacts Cards -->
+
+    <div class=" text-center mt-20">
+        <div class="text-2xl font-normal">Fill the form below so we can get to know you and your needs better.</div>
+        <!-- <div class="text-[#606060] mt-2">A choice that makes the difference.</div> -->
+    </div>
+
+    <!-- Contact From -->
+    <div class="w-full flex justify-center items-center mb-20">
+        <form class="w-[800px] bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+              Name
+            </label>
+            <input class="shadow-xl appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name...">
+          </div>
+          <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+              E-mail
+            </label>
+            <input class="shadow-xl appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email...">
+          </div>
+          <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
+              Phone
+            </label>
+            <input class="shadow-xl appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phone" type="number" placeholder="Phone...">
+          </div>
+          <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+              Message
+            </label>
+            <textarea class="shadow-xl appearance-none rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="message" type="textarea" placeholder="Message..."></textarea>
+          </div>
+          <div class="flex items-center justify-between">
+            <button class="w-full bg-[#0066CC] hover:bg-[#009966] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submity">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+
+
+      <!-- Google Map -->
+      <div class="relative w-full h-96">
+        <iframe class="absolute top-0 left-0 w-full h-full"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
+            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe>
+    </div>
+      <!-- End Google Map -->
+
+
+
+    <!-- Footer -->
+    <div class="flex justify-around items-center pt-10 pb-15 mt-20 text-white bg-linear-to-r from-blue-300 to-[#009966] border-t-1 border-blue-200 py-3">
+        <div class="text-white">
+          <img class="w-auto h-[60px]" src="/img/KobacTech-02.png" alt="">
+          <div class="flex text-center justify-start items-center gap-1 py-1">
+            <ion-icon class="text-[#009966]" name="call-outline"></ion-icon><h1>+252 61 0449949</h1>
+          </div>
+          <div class="flex text-center justify-start items-center gap-1 py-1">
+            <ion-icon class="text-[#009966]" name="mail-outline"></ion-icon><h1>info@kobacTech.com</h1>
+          </div>
+          <div class="flex text-center justify-start items-center gap-1">
+            <ion-icon class="text-[#009966]" name="location-outline"></ion-icon><h1>Hawl-wadaag Mogadishu-Somalia</h1>
+          </div>
+        </div>
+        <div class="text-white">
+          <h1 class="font-bold text-2xl pb-2">Company</h1>
+          <h1 class="mt-2">About</h1>
+          <h1 class="mt-2">Blog</h1>
+          <h1 class="mt-2">Contacts</h1>
+        </div>
+        <div class="text-white">
+          <h1 class="font-bold text-2xl pb-2">Links</h1>
+          <h1 class="mt-2">Courses</h1>
+          <h1 class="mt-2">Dashboard</h1>
+          <h1 class="mt-2">Events</h1>
+        </div>
+        <div class="text-white">
+          <h1 class="font-bold text-2xl pb-2">Support</h1>
+          <h1 class="mt-2">Documentation</h1>
+          <h1 class="mt-2">Forum</h1>
+          <h1 class="mt-2">Language Packs</h1>
+      </div>
+    </div>
+
+    <div class="text-center text-white bg-linear-to-r from-blue-300 to-[#009966] border-t-1 border-blue-200 py-3">
+      <p>&copy;2025 - All Rights Reserved by KobacTech</p>
+    </div>
+
+
+
+     <!-- cdn links -->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
